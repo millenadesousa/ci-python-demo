@@ -1,11 +1,11 @@
-from sum import sum
+from soma import soma 
 
-def test_sum_positivos():
-    assert sum(1, 2) == 3
+def teste_soma_positivos():
+    assert soma(1, 2) == 3
 
-def test_sum_negativos_e_zero():
-    assert sum(-1, 1) == 0
+def teste_soma_negativos_e_zero():
+    assert soma(-1, 1) == 0
 
-def test_sum_zeros():
-    assert sum(0, 0) == 0
-  
+def teste_soma_zeros():
+    assert soma(0, 0) == 0
+    
